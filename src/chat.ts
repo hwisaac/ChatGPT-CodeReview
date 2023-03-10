@@ -9,7 +9,7 @@ export class Chat {
   }
 
   private generatePrompt = (patch: string) => {
-    return `아래는 code patch 입니다. 저에게 간단한 code review를 해주세요. bug risk나 improvement suggestion을 환영합니다:
+    return `아래는 code patch 입니다. 저에게 간단한 code review를 해주세요. bug risk나 improvement suggestion을 환영합니다. 저에게 답변은 한국어로 해주세요:
 
     ${patch}
     `;
