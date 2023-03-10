@@ -32,7 +32,7 @@ export const robot = (app: Probot) => {
         repo: repo.repo,
         owner: repo.owner,
         issue_number: context.pullRequest().pull_number,
-        body: `Seems you are using me but didn't get OPENAI_API_KEY seted in Variables/Secrets for this repo. you could follow [readme](https://github.com/anc95/ChatGPT-CodeReview) for more information`,
+        body: `이 봇이 작동하고 있지만, 이 리포지토리에서 OPENAI_API_KEY 가 Variables/Secrets 로 설정돼 있지 않습니다.. 자세한 정보는 [readme](https://github.com/anc95/ChatGPT-CodeReview)를 확인해주세요`,
       });
       return null;
     }

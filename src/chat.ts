@@ -9,7 +9,8 @@ export class Chat {
   }
 
   private generatePrompt = (patch: string) => {
-    return `Bellow is the code patch, please help me do a brief code review, if any bug risk and improvement suggestion are welcome
+    return `아래는 code patch 입니다. 저에게 간단한 code review를 해주세요. bug risk나 improvement suggestion을 환영합니다:
+
     ${patch}
     `;
   };
